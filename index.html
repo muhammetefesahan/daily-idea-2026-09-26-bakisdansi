@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BakışDansı — gözüm burada 👀</title>
+  <meta name="description" content="Kameradaki bakışımı cihazımda küçük dokunuşlarla değiştiriyorum.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand"><span class="logo">◉</span><span>BakışDansı</span></div><span class="privacy">● Yalnızca benim cihazımda</span></header>
+  <main>
+    <section class="hero"><p class="eyebrow">KAMERA OYUNCAĞIM · V1</p><h1>Gözüm <em>burada!</em> 👀</h1><p>Ben başka yere bakmış olsam bile fotoğraftaki gözlerimi ekrana dönük gibi ayarlıyorum. Küçük bir sihir gibi. Kontrol bende.</p></section>
+    <div class="layout">
+      <section class="stage card">
+        <div class="section-head"><div><p class="eyebrow">01 / GÖRÜNTÜ</p><h2>Benim sahnem</h2></div><span id="sourceBadge" class="badge">Hazır bekliyorum</span></div>
+        <div class="preview-wrap" id="previewWrap"><canvas id="view" width="800" height="600" aria-label="İşlenen kamera görüntüsü"></canvas><div id="markers" class="markers" aria-hidden="true"><span></span><span></span></div><div id="empty" class="empty"><div class="empty-icon">◉</div><strong>Önce bir görüntü açayım</strong><small>Kamera, fotoğraf veya çizilmiş örnek olur.</small></div></div>
+        <p class="hint">Gözlerin ortasına sırayla tıklıyorum. Önce soldaki, sonra sağdaki. Mor halkaları gözlerime oturtuyorum.</p>
+        <div class="actions"><button id="cameraBtn" class="primary">📷 Kameramı aç</button><label class="button file-button">🖼 Fotoğraf seç <input id="file" type="file" accept="image/*"></label><button id="demoBtn" class="button">✨ Örnek yüz</button><button id="stopBtn" class="button" disabled>■ Kamerayı kapat</button></div>
+      </section>
+      <aside class="controls card"><div class="section-head"><div><p class="eyebrow">02 / AYAR</p><h2>Ben yön veriyorum</h2></div></div>
+        <label>Bakışın sağı solu <output id="xValue">0</output><input id="moveX" type="range" min="-50" max="50" value="0"><div class="scale"><span>← Sol</span><span>Sağ →</span></div></label>
+        <label>Bakışın yukarısı aşağısı <output id="yValue">0</output><input id="moveY" type="range" min="-50" max="50" value="0"><div class="scale"><span>↑ Yukarı</span><span>Aşağı ↓</span></div></label>
+        <label>Göz alanının boyu <output id="sizeValue">10</output><input id="size" type="range" min="5" max="18" value="10"></label>
+        <div class="presets"><button data-preset="screen">👀 Ekrana bak</button><button data-preset="silly">😜 Komik bakış</button><button data-preset="reset">↺ Sıfırla</button></div>
+        <hr><p class="eyebrow">03 / KAYDET</p><button id="saveBtn" class="save" disabled>⬇ Düzenlediğim fotoğrafı indir</button><p class="notice">Ben sadece göz çevresindeki pikselleri kaydırıyorum. Başımı çevirdiysem mucize yapamıyorum. İndirme düğmesine ben basmadıkça fotoğraf dosyası oluşmuyor.</p><div id="status" class="status" role="status">Ben hazırım.</div>
+      </aside>
+    </div>
+    <footer>Benim görüntüm sunucuya gitmiyor. Kameramı kapatınca akış duruyor. Mikrofon istemiyorum.</footer>
+  </main>
+  <script type="module" src="app.mjs"></script>
+</body></html>
