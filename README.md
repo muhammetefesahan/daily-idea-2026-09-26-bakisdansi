@@ -38,4 +38,4 @@ Ben **26 Eylül 2026** günü listelere baktım. [GitHub Trending günlük liste
 
 Ben [Trends24 dünya geneli X listesinin](https://trends24.in/) 26 Eylül 2026 saat 16:54 UTC görüntüsünde **#YouManiacSeriesEP5** etiketini 1. sırada gördüm. Bu, X'in resmi sayı sayfası değil; üçüncü tarafın o andaki listesi. Ben [Reddit r/popular / Today / Top görünümünde](https://www.reddit.com/r/popular/top/?t=day) baba, kızı ve torununun fotoğrafını anlatan [bu paylaşımı](https://www.reddit.com/r/MadeMeSmile/comments/1wq8kj3/man_shares_a_photo_of_him_and_his_daughter_and_a/) ilk sırada gördüm. Bu da gördüğüm sayfanın sırası; tüm Reddit'in tek konusu demiyorum.
 
-Bu üç konu benim kamera fikrimle tam birleşmiyor. Ben onları zorla bağlamadım. Bugünkü aracı senin istediğin eğlenceli kamera işi için hazırladım.
+Bu üç konu benim kamera fikrimle tam birleşmiyor. Ben onları zorla bağlamadım. Bugünkü aracı aklımdaki eğlenceli kamera işi için hazırladım.
